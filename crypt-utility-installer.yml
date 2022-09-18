@@ -8,6 +8,11 @@
     args:
       executable: /bin/bash
 
+  - name: shell drift to upstream version but first remove ubuntu packages
+    shell: apt-get purge docker.io docker-compose golang -y && apt-get update
+    args:
+      executable: /bin/bash
+
   - name: shell install specific go version (upstream)
     shell: wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz && tar xzvf go1.19.1.linux-amd64.tar.gz -C /usr/local/bin/ && ln -sf /usr/local/bin/go/bin/go /usr/bin/go
     args:
@@ -34,7 +39,7 @@
       executable: /bin/bash
       
   - name: shell install bazel
-    shell: apt-get update -y && apt-get install bazel -y
+    shell: apt-get update && apt-get install bazel -y
     args:
       executable: /bin/bash      
       
@@ -79,7 +84,7 @@
       executable: /bin/bash 
 
   - name: shell install gcp 
-    shell: apt-get update -y && apt-get install google-cloud-cli -y
+    shell: apt-get update && apt-get install google-cloud-cli -y
     args:
       executable: /bin/bash
 
@@ -94,7 +99,7 @@
       executable: /bin/bash      
 
   - name: shell install azure cli
-    shell: apt-get update -y && apt-get install azure-cli -y
+    shell: apt-get update && apt-get install azure-cli -y
     args:
       executable: /bin/bash        
      
@@ -109,7 +114,7 @@
       executable: /bin/bash     
 
   - name: shell install hashicorp vault
-    shell: apt-get update -y && apt-get install vault -y
+    shell: apt-get update && apt-get install vault -y
     args:
       executable: /bin/bash  
 
