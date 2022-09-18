@@ -33,7 +33,6 @@ Installs:
 - smallstep</br>
 - hashicorp vault</br>
 - certbot</br>
-- keycloak</br>
 <h2>compilers</h2>
 - go</br>
 - cargo (rust)</br>
@@ -42,6 +41,7 @@ Installs:
 <h2>java stuff</h2>
 - openjdk11</br>
 - wycheproof</br>
+- keycloak</br>
 <h2>testing</h2>
 - bazel</br>
 - trivy</br>
