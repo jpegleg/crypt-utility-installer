@@ -3,27 +3,28 @@
 Ansible install for cryptographic test VM software collection.
 
 Installs:
-##cryptography stuff:
-- gnupg2
-- age
-- openssl
-##pki things:
-- smallstep
-- hashicorp vault
-- certbot
-##compilers
-- go
-- cargo (rust)
-- g++ (c++)
-- gcc
-##java stuff
-- openjdk11
-- wycheproof
-##testing
+
+<h2>cryptography stuff:</h2>
+- gnupg2</br>
+- age</br>
+- openssl</br>
+<h2>pki things:</h2>
+- smallstep</br>
+- hashicorp vault</br>
+- certbot</br>
+<h2>compilers</h2>
+- go</br>
+- cargo (rust)</br>
+- g++ (c++)</br>
+- gcc</br>
+<h2>java stuff</h2>
+- openjdk11</br><
+- wycheproof</br>
+<h2>testing</h2>
 - bazel
-##cloud client and testing things
-- docker and docker-compose
-- kubectl
-- aws cli
-- gcp cli
-- azure cli
+<h2>cloud client and testing things</h2>
+- docker and docker-compose</br>
+- kubectl</br>
+- aws cli</br>
+- gcp cli</br>
+- azure cli</br>
