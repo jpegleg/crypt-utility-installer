@@ -2,6 +2,9 @@
 
 Ansible install for cryptographic test VM software collection.
 
+The playbook uses shell commands with apt-get and apt and is built for Ubuntu 22.
+
+
 Installs:
 
 <h2>cryptography stuff:</h2>
