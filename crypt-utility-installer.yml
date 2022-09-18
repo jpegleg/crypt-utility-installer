@@ -114,7 +114,7 @@
       executable: /bin/bash  
 
   - name: shell install cosign
-    shell: wget "https://github.com/sigstore/cosign/releases/download/v1.6.0/cosign_1.6.0_amd64.deb" && dpkg -i "cosign_1.6.0_amd64.deb
+    shell: wget "https://github.com/sigstore/cosign/releases/download/v1.6.0/cosign_1.6.0_amd64.deb" && dpkg -i "cosign_1.6.0_amd64.deb"
     args:
       executable: /bin/bash  
  
