@@ -9,7 +9,7 @@
       executable: /bin/bash
 
   - name: shell install specific go version (upstream)
-    shell: wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz && tar xzvf go1.19.1.linux-amd64.tar.gz -c /usr/local/bin/ && ln -sf /usr/local/bin/go/bin/go /usr/bin/go
+    shell: wget https://go.dev/dl/go1.19.1.linux-amd64.tar.gz && tar xzvf go1.19.1.linux-amd64.tar.gz -C /usr/local/bin/ && ln -sf /usr/local/bin/go/bin/go /usr/bin/go
     args:
       executable: /bin/bash
 
