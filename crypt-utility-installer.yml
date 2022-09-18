@@ -117,5 +117,10 @@
     shell: get "https://github.com/sigstore/cosign/releases/download/v1.6.0/cosign_1.6.0_amd64.deb" && dpkg -i "cosign_1.6.0_amd64.deb
     args:
       executable: /bin/bash  
-     
+ 
+  - name: shell install cargo clippy
+    shell: rustup component add clippy
+    args:
+      executable: /bin/bash    
+   
 ...
