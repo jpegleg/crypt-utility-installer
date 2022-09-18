@@ -27,6 +27,7 @@ Installs:
 <h2>testing</h2>
 - bazel</br>
 - trivy</br>
+- cargo clippy</br>
 <h2>build system</h2>
 - syft</br>
 <h2>cloud client and testing things</h2>
