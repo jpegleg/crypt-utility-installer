@@ -4,7 +4,7 @@
   tasks:
 
   - name: shell install packages
-    shell: apt-get install docker.io docker-compose tcpdump ca-certificates certbot python3.10-venv lsb-release apt-transport-https git g++ unzip zip curl wget openjdk-11-jdk gnupg2 age vim openssl gcc -y
+    shell: apt-get install docker.io docker-compose tcpdump ca-certificates certbot librust-openssl-dev python3.10-venv lsb-release apt-transport-https git g++ unzip zip curl wget openjdk-11-jdk gnupg2 age vim openssl gcc -y
     args:
       executable: /bin/bash
 
