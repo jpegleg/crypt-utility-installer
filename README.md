@@ -33,6 +33,7 @@ Installs:
 - smallstep</br>
 - hashicorp vault</br>
 - certbot</br>
+- keycloak</br>
 <h2>compilers</h2>
 - go</br>
 - cargo (rust)</br>
