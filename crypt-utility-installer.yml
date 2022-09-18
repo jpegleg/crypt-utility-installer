@@ -133,4 +133,8 @@
     args:
       executable: /bin/bash    
    
+  - name: shell download keycloak
+    shell: wget https://github.com/keycloak/keycloak/releases/download/19.0.2/keycloak-19.0.2.zip
+    args:
+      executable: /bin/bash   
 ...
