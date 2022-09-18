@@ -18,7 +18,7 @@ Installs:
 - g++ (c++)</br>
 - gcc</br>
 <h2>java stuff</h2>
-- openjdk11</br><
+- openjdk11</br>
 - wycheproof</br>
 <h2>testing</h2>
 - bazel
