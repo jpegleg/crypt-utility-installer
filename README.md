@@ -4,6 +4,23 @@ Ansible install for cryptographic test VM software collection.
 
 The playbook uses shell commands with apt-get and apt and is built for Ubuntu 22.
 
+Example of running the Ansible play:
+```
+ansible-playbook -u root -i hosts.ini crypt-utility-installer.yml
+```
+
+Example of extracting all the shell commands and executing them instead of using Ansible:
+```
+grep shell crypt-utility-installer.yml | grep -v "name: shell" | cut -d ':' -f2- | bash - 
+```
+
+Example using for more specific installs:
+```
+cp crypt-utility-installer.yml pki.yml
+vim pki.yml # cut out compilers and testers, customize with reduction
+ansible-playbook -u root -i hosts.ini pki.yml
+```
+
 
 Installs:
 
