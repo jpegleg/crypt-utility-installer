@@ -46,7 +46,7 @@ Installs:
 - trivy</br>
 - cargo clippy</br>
 <h2>build system</h2>
-- syft</br>
+- syft (SBOM)</br>
 <h2>cloud client and testing things</h2>
 - docker and docker-compose</br>
 - kubectl</br>
