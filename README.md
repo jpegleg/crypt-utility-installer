@@ -11,6 +11,7 @@ Installs:
 - gnupg2</br>
 - age</br>
 - openssl</br>
+- cosign</br>
 <h2>pki things:</h2>
 - smallstep</br>
 - hashicorp vault</br>
@@ -24,7 +25,10 @@ Installs:
 - openjdk11</br>
 - wycheproof</br>
 <h2>testing</h2>
-- bazel
+- bazel</br>
+- trivy</br>
+<h2>build system</h2>
+- syft</br>
 <h2>cloud client and testing things</h2>
 - docker and docker-compose</br>
 - kubectl</br>
