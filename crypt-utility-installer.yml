@@ -99,7 +99,7 @@
       executable: /bin/bash  
     
   - name: shell install trivy repo
-    shell: echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
+    shell: echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | tee -a /etc/apt/sources.list.d/trivy.list
     args:
       executable: /bin/bash      
 
