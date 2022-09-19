@@ -46,6 +46,8 @@ Installs:
 - bazel</br>
 - trivy</br>
 - cargo clippy</br>
+- sslscan</br>
+- nmap</br>
 <h2>build system</h2>
 - syft (SBOM)</br>
 <h2>cloud client and testing things</h2>
