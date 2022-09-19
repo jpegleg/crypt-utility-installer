@@ -49,7 +49,7 @@ Installs:
 - sslscan</br>
 - nmap</br>
 - wasmtime (wasm runtime)</br>
-<h2>build system</h2>
+<h2>build system additional tools</h2>
 - syft (SBOM)</br>
 - wasi (wasm32-wasi)</br>
 <h2>cloud client and testing things</h2>
