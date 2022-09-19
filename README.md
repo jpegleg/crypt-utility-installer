@@ -51,7 +51,7 @@ Installs:
 - wasmtime (wasm runtime)</br>
 <h2>build system</h2>
 - syft (SBOM)</br>
-- wasi (wasm)</br>
+- wasi (wasm32-wasi)</br>
 <h2>cloud client and testing things</h2>
 - docker and docker-compose</br>
 - kubectl</br>
