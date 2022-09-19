@@ -137,6 +137,11 @@
     shell: rustup target add wasm32-wasi
     args:
       executable: /bin/bash   
+   
+  - name: shell install cargo wasmtime
+    shell: curl https://wasmtime.dev/install.sh -sSf | bash
+    args:
+      executable: /bin/bash   
       
   - name: shell download keycloak
     shell: wget https://github.com/keycloak/keycloak/releases/download/19.0.2/keycloak-19.0.2.zip
